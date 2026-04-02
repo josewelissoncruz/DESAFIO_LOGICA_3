@@ -3,7 +3,7 @@
 let dadosDoHeroi = {
     name: "",       // Digite o nome do Heroi //
     idade: 0 ,       // Digite a idade do Heroi //
-    tipo: ""        // Digite o tipo do Heroi escolhendo entre mago, guerreiro, monge e nija //
+    tipo: ""        // Digite o tipo do Heroi escolhendo entre mago, guerreiro, monge e ninja //
 };
 
 // classe //
