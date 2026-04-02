@@ -1,10 +1,12 @@
-// Variaveis//
+// Variavel e Objeto //
 
 let dadosDoHeroi = {
-    name: "",       //Digite o nome do Heroi
-    idade: 0 ,       //Digite a idade do Heroi
-    tipo: ""        //Digite o tipo do Heroi escolhendo entre mago, guerreiro, monge e nija
+    name: "",       // Digite o nome do Heroi //
+    idade: 0 ,       // Digite a idade do Heroi //
+    tipo: ""        // Digite o tipo do Heroi escolhendo entre mago, guerreiro, monge e nija //
 };
+
+// classe //
 
 class Heroi{
     constructor(name, idade, tipo){
@@ -12,6 +14,8 @@ class Heroi{
         this.idade = idade;
         this.tipo = tipo;
     }
+
+// Função //
 
 atacar() {
     let ataque = "";
@@ -28,14 +32,17 @@ atacar() {
         ataque = "shuriken";
     }
 
-    //saída
+    // saída //
 
     console.log (`O ${this.tipo} atacou usando ${ataque}`)
     }
 }
 
+// Criação do Objeto  //
 
 let heroi = new Heroi(dadosDoHeroi.name, dadosDoHeroi.idade, dadosDoHeroi.tipo);
+
+// Chamada da Função //
 
 heroi.atacar()
 
